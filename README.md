@@ -88,9 +88,9 @@ Create the `users` table:
 ```sql
 CREATE TABLE users (
   id INT AUTO_INCREMENT PRIMARY KEY,
-  name VARCHAR(100) NOT NULL,
-  email VARCHAR(150) NOT NULL UNIQUE,
-  password VARCHAR(255) NOT NULL
+  name VARCHAR(100),
+  email VARCHAR(100) UNIQUE,
+  password VARCHAR(255)
 );
 ```
 
@@ -99,13 +99,13 @@ Create the `transactions` table:
 ```sql
 CREATE TABLE transactions (
   id INT AUTO_INCREMENT PRIMARY KEY,
-  user_id INT NOT NULL,
-  title VARCHAR(255) NOT NULL,
-  amount DECIMAL(10,2) NOT NULL,
-  type ENUM('income', 'expense') NOT NULL,
-  category VARCHAR(100) NOT NULL,
-  date DATE NOT NULL,
-  FOREIGN KEY (user_id) REFERENCES users(id) ON DELETE CASCADE
+  user_id INT,
+  title VARCHAR(100),
+  amount FLOAT,
+  type VARCHAR(20),
+  category VARCHAR(50),
+  date DATE,
+  FOREIGN KEY (user_id) REFERENCES users(id)
 );
 ```
 
@@ -132,7 +132,7 @@ npm install
 ### 5. Start the backend server
 
 ```bash
-npm start
+npm start or npm.cmd start
 ```
 
 The server will run at:
