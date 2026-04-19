@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Login | Hisaab Kitaab</title>
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="auth-body">
+
+<main class="auth-layout">
+  <section class="auth-card card">
+
+    <button class="btn btn--ghost btn--small back-button"
+      onclick="goBack('index.html')">← Back</button>
+
+    <div class="auth-card__header">
+      <a class="brand brand--centered" href="index.html">
+        <img src="hklogo.png" class="brand__logo">
+        <span class="brand__text">Hisaab Kitaab</span>
+      </a>
+      <h1>Welcome Back</h1>
+      <p>Login to continue managing your expenses</p>
+    </div>
+
+    <form id="loginForm" class="auth-form">
+
+      <label class="input-group">
+        <span>Email Address</span>
+        <input type="email" id="email" required>
+      </label>
+
+      <label class="input-group">
+        <span>Password</span>
+        <input type="password" id="password" required>
+      </label>
+
+      <button class="btn btn--primary" type="submit">Login</button>
+
+    </form>
+
+    <p class="auth-switch">
+      Don’t have an account?
+      <a class="text-link" href="signup.html">Sign up</a>
+    </p>
+
+  </section>
+  <footer class="site-footer">
+  <div class="site-footer__content">
+    <p class="site-footer__brand">Hisaab Kitaab</p>
+    <p class="site-footer__text">Track expenses smartly, plan confidently.</p>
+  </div>
+
+  <div class="site-footer__links">
+    <a href="index.html">Home</a>
+    <a href="signup.html">Sign Up</a>
+  </div>
+</footer>
+
+</main>
+
+<script src="script.js"></script>
+</body>
+</html>
