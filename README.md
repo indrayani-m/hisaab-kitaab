@@ -33,6 +33,11 @@ It includes a polished frontend built with HTML, CSS, and Vanilla JavaScript, al
 - bcrypt
 - cors
 
+## Demo
+
+[Watch the video demo here!](./demo/demo.mp4)
+
+
 ## Project Structure
 
 ```bash
