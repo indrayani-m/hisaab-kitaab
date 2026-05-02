@@ -35,7 +35,8 @@ It includes a polished frontend built with HTML, CSS, and Vanilla JavaScript, al
 
 ## Demo
 
-[Watch the video demo here!](./demo/demo.mp4)
+[Watch the full demo video](https://drive.google.com/drive/folders/1uZpsKjoDbTcekoykEb4CUclZorMcJrYX?usp=sharing)
+
 
 
 ## Project Structure
