@@ -35,7 +35,7 @@ It includes a polished frontend built with HTML, CSS, and Vanilla JavaScript, al
 
 ## Demo
 
-[Watch the full demo video](https://drive.google.com/drive/folders/1uZpsKjoDbTcekoykEb4CUclZorMcJrYX?usp=sharing)
+[Watch the full demo video here!](https://drive.google.com/drive/folders/1uZpsKjoDbTcekoykEb4CUclZorMcJrYX?usp=sharing)
 
 
 
@@ -138,7 +138,6 @@ npm install
 ### 5. Start the backend server
 
 ```bash
-cd backend
 node server.js
 ```
 
@@ -146,6 +145,7 @@ The server will run at:
 
 ```bash
 http://localhost:3000
+MySQL connected
 ```
 
 ### 6. Run the frontend
@@ -213,7 +213,7 @@ Users can:
 
 ## Author
 
-Made by Indrayani Mude
+Indrayani Mude
 
 ## License
 
